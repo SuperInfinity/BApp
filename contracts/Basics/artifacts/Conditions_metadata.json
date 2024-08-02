@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mul_sol.sol": "Conditions"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mul_sol.sol": {
+			"keccak256": "0xa551c07806c4a4209928848ef17fba8503a14d6e2cc931b785a5f9b14c27644a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d78a9e5856ef4b590135915b3393b1ea43580561c2280cb9a9784527d78b99a3",
+				"dweb:/ipfs/Qmey8obabCp5G32hHYLZBfSYBbog7vsJcpwe8pzvSs5j2e"
+			]
+		}
+	},
+	"version": 1
+}

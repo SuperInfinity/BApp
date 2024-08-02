@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "factorial",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Adv/factorial..sol": "Factorial"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Adv/factorial..sol": {
+			"keccak256": "0x0f288fa458d715eb7ded45e79af9ac9713d02ec1e8f0a78712f823eb55165447",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://19b0d502ae7b995c74bc69c882509a236061cdb72b816bd8e83b512ebd5753f7",
+				"dweb:/ipfs/QmVVzTean7vR6D1HH5Q9iMw5zYWVKRvRnMLYYFaqM92mtN"
+			]
+		}
+	},
+	"version": 1
+}

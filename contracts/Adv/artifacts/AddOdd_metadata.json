@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "addOdd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Adv/oddadd.sol": "AddOdd"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Adv/oddadd.sol": {
+			"keccak256": "0x3ec879578cf2fe80e53a50e1512a668b2d648264192b40d11cc86764e2a2d59b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f2e4f114ca49e56e25ec0c7f9561d3328a8039f94e7023dcf5d4e27a9ffe8d70",
+				"dweb:/ipfs/QmYbvSVyS2iDHCLGrz3oJLq9X4ftowftqFMVBSk9bWQKHL"
+			]
+		}
+	},
+	"version": 1
+}
