@@ -36,8 +36,6 @@ contract CrossBorderTrade {
             isCompliant: false,
             paymentRecieved: false
         });
-
-        TradeAgreements[agreementCounter].ex
     }
 
 }
