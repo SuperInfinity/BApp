@@ -23,8 +23,7 @@ contract Bank {
     }
 
     function transfer(uint amt) public payable {
-        require(balances[msg.sender] >= amt, "Not sufficient Balance");
-        balances[msg.sender] -= amt;
+        // Not yet Done..!
     }
 
 }
