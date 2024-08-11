@@ -1,0 +1,244 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "TradeAgreements",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "exporter",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "importer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "product",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "shipmentStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompliant",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "paymentReceived",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "agreementcounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_importer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_product",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "createAgreement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_agreementId",
+						"type": "uint256"
+					}
+				],
+				"name": "getTradeAgreementDetails",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "exporter",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "importer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "product",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "shipmentStatus",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompliant",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "paymentReceived",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_agreementId",
+						"type": "uint256"
+					}
+				],
+				"name": "makePayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_agreementid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isCompliant",
+						"type": "bool"
+					}
+				],
+				"name": "updateCompliantStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_agreementId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newStatus",
+						"type": "string"
+					}
+				],
+				"name": "updateShipmentStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Adv2/crossbordertrade.sol": "CrossBorderTrade"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Adv2/crossbordertrade.sol": {
+			"keccak256": "0x5e0863c95c78610ebd16b6d5c73342f91ec70e7f62722e97175b5a5a58edc05f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b838596379fe0f761b4192cc4e09ead6c6c066eddd8a49fb03d4362b70d130bc",
+				"dweb:/ipfs/QmXqyR8zDE8d7m1UtrRPX7V2fEFhMqYrG95odUe3uLY8gK"
+			]
+		}
+	},
+	"version": 1
+}
